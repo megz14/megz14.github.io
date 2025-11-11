@@ -6,7 +6,7 @@ interface AppIconProps {
   onClick: () => void;
 }
 
-export const AppIcon: React.FC<AppIconProps> = ({ label, isActive, onClick }) => {
+export const AppIcon: React.FC<AppIconProps> = ({ label, onClick }) => {
   return (
     <button
       onClick={onClick}
