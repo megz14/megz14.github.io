@@ -86,9 +86,40 @@ export const tabsConfig: Tab[] = [
     id: 'links',
     title: 'Links',
     content: (
-      <div>
-        <h2 className="text-2xl font-bold mb-4">Links</h2>
-        <p>This is the links section.</p>
+      <div className="space-y-4">
+        <div className="space-y-4">
+          <div>
+            <h3 className="text-lg font-semibold mb-2">GitHub</h3>
+            <a
+              href="https://github.com/megz14"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              https://github.com/megz14
+            </a>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-2">LinkedIn</h3>
+            <a
+              href="https://www.linkedin.com/in/andrew-jamsa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              www.linkedin.com/in/andrew-jamsa
+            </a>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Email</h3>
+            <a
+              href="mailto:andrew.jamsa@mail.utoronto.ca"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              andrew.jamsa@mail.utoronto.ca
+            </a>
+          </div>
+        </div>
       </div>
     ),
     iconId: 'links',
@@ -400,15 +431,28 @@ export const tabsConfig: Tab[] = [
     height: 600,
   },
   {
-    id: 'labs',
-    title: 'Labs',
+    id: 'notes',
+    title: 'Notes',
     content: (
-      <div>
-        <h2 className="text-2xl font-bold mb-4">Labs</h2>
-        <p>This is the labs section.</p>
+      <div className="space-y-4">
+        <h2 className="text-2xl font-bold mb-6">Machine Learning</h2>
+        <div className="space-y-4">
+          <div>
+            <a
+                  href="https://www.overleaf.com/read/mrvhkyzjmpjk#9fc44b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Probabilistic modelling and MLE</h3>
+            </a>
+          </div>
+        </div>
       </div>
     ),
-    iconId: 'labs',
+    iconId: 'notes',
+    width: 600,
+    height: 450,
   },
   {
     id: 'more',
@@ -439,9 +483,9 @@ export const appIconsConfig: AppIcon[] = [
     tabId: 'projects',
   },
   {
-    id: 'labs',
-    label: 'Labs',
-    tabId: 'labs',
+    id: 'notes',
+    label: 'Notes',
+    tabId: 'notes',
   },
   {
     id: 'more',
