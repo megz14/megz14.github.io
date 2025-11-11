@@ -45,7 +45,9 @@ export const tabsConfig: Tab[] = [
         {/* Things I do */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Things I do:</h3>
-          <p>I do web and game developments</p>
+          <p>I am an enthusiast of machine learning and software engineering. 
+            I love exploring new neural network architectures and the surprises they bring. 
+            Aside from machine learning, I develop web and game applications.</p>
         </div>
 
         {/* Education */}
