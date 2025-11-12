@@ -286,7 +286,22 @@ export const tabsConfig: Tab[] = [
             </div>
           </div>
         </div>
-
+        <div>
+          <h2 className="text-2xl font-bold mb-4 pb-2 border-b border-gray-300 dark:border-gray-600">
+            Research Experience
+          </h2>
+          <div className="space-y-6">
+              <div>
+                <h3 className="text-xl font-semibold mb-0">CHM399: Quantum Chemistry and Machine Learning for Catalyst Development</h3>
+                <h4 className="text-lg font-semibold">Fekl Group, University of Toronto</h4>
+              </div>
+              <p className="mb-3">
+                <span className="font-medium">Technology used:</span> VertexAI, Cluster Computing, Gaussian16, CCDB Alliance Canada, etc.
+              </p>
+              <p className="mb-3">
+              I conducted research on Gibbs free energy in C–H activation reactions involving nickel–oxo catalysts and methane. As part of this work, I scraped and compiled over 50 nickel–oxo compounds from databases such as Scopus, CDB, and Web of Science for computational optimization. I developed and automated submission files for cluster computing to enhance the efficiency of geometry optimization, utilizing the supercomputers hosted by the Digital Research Alliance of Canada. This included creating and managing run files (.sh and .com) as well as analyzing output files (.log). I further investigated the relationship between the topological features of nickel–oxo complexes (Bag-of-Bonds, Persistent Images) and the Gibbs free energy of the Hydrogen Atom Abstraction (HAA) step in the catalytic process, using VertexAI to train, tune, and test multiple regression models, including Ridge, Lasso, EfficientNet, Gradient Boosting, and Kernel Ridge Regression.              </p>
+          </div>
+        </div>
         {/* Game Development Section */}
         <div>
           <h2 className="text-2xl font-bold mb-4 pb-2 border-b border-gray-300 dark:border-gray-600">
@@ -435,6 +450,20 @@ export const tabsConfig: Tab[] = [
     title: 'Notes',
     content: (
       <div className="space-y-4">
+        <h2 className="text-2xl font-bold mb-6">Cool Topics</h2>
+        <div className="space-y-4">
+          <div>
+            <a
+                  href="https://books.google.ca/books?hl=en&lr=&id=6aC_EAAAQBAJ&oi=fnd&pg=PP16&ots=sbE66cOdf9&sig=U1yHqIJs9PXEU2GOix3QbfVATYo&redir_esc=y#v=onepage&q&f=false"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Molecular Representations for Machine Learning</h3>
+            </a>
+          </div>
+        </div>
+        <hr className="my-6 border-gray-300 dark:border-gray-600" />
         <h2 className="text-2xl font-bold mb-6">Machine Learning</h2>
         <div className="space-y-4">
         <div>
