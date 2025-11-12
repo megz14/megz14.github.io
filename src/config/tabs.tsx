@@ -437,6 +437,16 @@ export const tabsConfig: Tab[] = [
       <div className="space-y-4">
         <h2 className="text-2xl font-bold mb-6">Machine Learning</h2>
         <div className="space-y-4">
+        <div>
+            <a
+                  href="https://www.overleaf.com/read/dzcqzcdptxxv#42e210"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Cheatsheet: Introduction to Machine Learning and kNN</h3>
+            </a>
+          </div>
           <div>
             <a
                   href="https://www.overleaf.com/read/mrvhkyzjmpjk#9fc44b"
@@ -444,7 +454,17 @@ export const tabsConfig: Tab[] = [
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-400 hover:underline"
                 >
-                  <h3 className="text-lg font-semibold mb-2">Probabilistic modelling and MLE</h3>
+                  <h3 className="text-lg font-semibold mb-2">Probabilistic modelling Part 1: MLE</h3>
+            </a>
+          </div>
+          <div>
+            <a
+                  href="https://www.overleaf.com/read/snxrqhmbgzrr#443afa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Probabilistic modelling Part 2: FB, MAP</h3>
             </a>
           </div>
         </div>
