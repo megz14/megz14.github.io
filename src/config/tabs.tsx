@@ -468,6 +468,18 @@ export const tabsConfig: Tab[] = [
         <div className="space-y-4">
           <div>
             <a
+                  href="https://towardsdatascience.com/cross-entropy-negative-log-likelihood-and-all-that-jazz-47a95bd2e81/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">NLLL vs Cross Entropy: It's actually same same, but a bit different.</h3>
+            </a>
+          </div>
+        </div>
+        <div className="space-y-4">
+          <div>
+            <a
                   href="https://medium.com/@AbhiramiVS/softmax-vs-logsoftmax-eb94254445a2"
                   target="_blank"
                   rel="noopener noreferrer"
