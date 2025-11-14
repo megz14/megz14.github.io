@@ -450,7 +450,7 @@ export const tabsConfig: Tab[] = [
     title: 'Notes',
     content: (
       <div className="space-y-4">
-        <h2 className="text-2xl font-bold mb-6">Cool Topics</h2>
+        <h2 className="text-2xl font-bold mb-6">Cool Books</h2>
         <div className="space-y-4">
           <div>
             <a
@@ -464,7 +464,21 @@ export const tabsConfig: Tab[] = [
           </div>
         </div>
         <hr className="my-6 border-gray-300 dark:border-gray-600" />
-        <h2 className="text-2xl font-bold mb-6">Machine Learning</h2>
+        <h2 className="text-2xl font-bold mb-6">Cool Articles</h2>
+        <div className="space-y-4">
+          <div>
+            <a
+                  href="https://medium.com/@AbhiramiVS/softmax-vs-logsoftmax-eb94254445a2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Why use log softmax instead of softmax?</h3>
+            </a>
+          </div>
+        </div>
+        <hr className="my-6 border-gray-300 dark:border-gray-600" />
+        <h2 className="text-2xl font-bold mb-6">Annotated ML Notes</h2>
         <div className="space-y-4">
         <div>
             <a
@@ -474,6 +488,56 @@ export const tabsConfig: Tab[] = [
                   className="text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   <h3 className="text-lg font-semibold mb-2">Cheatsheet: Introduction to Machine Learning and kNN</h3>
+            </a>
+          </div>
+          <div>
+            <a
+                  href="https://drive.google.com/file/d/1mOfril2v1CBgOrJzP0i10M_YRv6tbaGx/view?usp=share_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Probabilistic models</h3>
+            </a>
+          </div>
+          <div>
+            <a
+                  href="https://drive.google.com/file/d/1JVrD65FpMGHctKSnS19R3nR7wRoG5N7g/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Generalization Techniques</h3>
+            </a>
+          </div>
+          <div>
+            <a
+                  href="https://drive.google.com/file/d/13as9_CMK8rlOOnwHH5CUs476BI_SX0xr/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">Image Classification Models</h3>
+            </a>
+          </div>
+          <div>
+            <a
+                  href="https://drive.google.com/file/d/17YjAc9Z5zEkm_H-9HRJl8yXfSGSpLc-H/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">RNN</h3>
+            </a>
+          </div>
+          <div>
+            <a
+                  href="https://drive.google.com/file/d/1VVtaUBl0guqjPWxmUisVicpoISPpfU95/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                >
+                  <h3 className="text-lg font-semibold mb-2">LSTM</h3>
             </a>
           </div>
           <div>
